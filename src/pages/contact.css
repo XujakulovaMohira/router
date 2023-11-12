@@ -1,0 +1,55 @@
+.contact-cards {
+  display: flex;
+  gap: 1rem;
+  margin: 50px 0;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.contact-card {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 28%;
+}
+
+h5 {
+  color: #dc780b;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 3.2px;
+  opacity: 0.7;
+  margin: 1rem 0;
+}
+
+h2 {
+  color: #150c01;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .contact-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .contact-card {
+    width: 50%;
+  }
+
+  h5 {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}

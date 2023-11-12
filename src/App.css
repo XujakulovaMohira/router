@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.App {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: #333;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+nav a:hover {
+  color: #dc780b;
+  text-decoration: underline;
+}
+
+nav a.active {
+  color: #dc780b;
+}
+
+@media (max-width:450px){
+  nav a {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+  .nav-right {
+    display: flex;
+    gap: 1rem;
+  }
+}
